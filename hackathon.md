@@ -213,6 +213,8 @@ data=$(printf "%s\n" "${data_array[@]}")
 
 # Write all data to the CSV file at once
 echo "$data" >> "$csv_file"
-
+times 'spent ]
+width
+size
 echo "CSV file generated successfully."
 ```
